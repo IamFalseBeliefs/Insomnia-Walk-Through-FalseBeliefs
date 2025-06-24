@@ -1,4 +1,4 @@
-Walkthrough for Mr.Robot virtual machine
+Walkthrough for Insomnia virtual Machine
 
 Starting the attack I had to identify the virtual machine IP addr. I did this by running rubicon which is a script I programmed. The nmap scrip that it runs is "nmap -sn 192.168.0.0/24". This scans the range of IP's in that range to list all IP's on my network. To recreate this on your own network run ifconfig and if it returns 192.168.1.XXX then use 192.168.1.0/24 as your range or adapt for your IP addr. As you can see the NMAP scan returned the information below and I determined that
 the target IP addr is 192.168.56.105
